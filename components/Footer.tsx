@@ -45,6 +45,9 @@ const Bottom = (props: BottomProps) => {
                     </Link>
 				</Stack>
 			</Box>
+			<div className={styles.copy}>
+				<h4>&copy; {new Date().getFullYear()} Ryan&apos;s PGP Keygen</h4>
+			</div>
 		</div>
 	);
 };
