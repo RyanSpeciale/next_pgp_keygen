@@ -7,7 +7,7 @@ import TopNav from './TopNav';
 const Layout = ({ children }) => {
     return (
         <>
-            <TopNav labels={['Home', 'About Us', 'About PGP', 'Who needs PGP?', 'Contact']}/>
+            <TopNav labels={['Home', 'Encrypt Your Data', 'About PGP', 'Who needs PGP?', 'Donate']}/>
             <main>{ children }</main>
             <Footer name='Ryan Speciale'/>
         </>
