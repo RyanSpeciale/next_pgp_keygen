@@ -7,9 +7,9 @@ import TopNav from './TopNav';
 const Layout = ({ children }) => {
     return (
         <>
-            <TopNav />
+            <TopNav labels={['Home', 'About Us', 'About PGP', 'Who needs PGP?', 'Contact']}/>
             <main>{ children }</main>
-            <Footer />
+            <Footer name='Ryan Speciale'/>
         </>
     );
 };
